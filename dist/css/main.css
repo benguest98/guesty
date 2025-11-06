@@ -18829,14 +18829,9 @@ label.panel-block:hover {
   font-size: 0.75rem;
 }
 
-.dj-image {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  padding: 0;
-}
 .dj-image img {
-  border-radius: 20px;
+  border-radius: var(--bulma-radius-large);
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

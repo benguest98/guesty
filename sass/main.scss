@@ -2,12 +2,8 @@
 @use "bulma/sass/utilities/css-variables" as cv;
 
 .dj-image {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  padding: 0;
-
   img {
-    border-radius: 20px; //cv.getVar("radius-rounded");
+    border-radius: cv.getVar("radius-large");
+    max-width: 100%;
   }
 }
