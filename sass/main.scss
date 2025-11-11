@@ -1,3 +1,4 @@
+@use "bulma/sass/utilities/initial-variables" as iv;
 @use "bulma" as *;
 @use "bulma/sass/utilities/css-variables" as cv;
 
@@ -5,5 +6,11 @@
   img {
     border-radius: cv.getVar("radius-large");
     max-width: 100%;
+  }
+}
+
+.contact-email {
+  a {
+    color: iv.$grey-light;
   }
 }
